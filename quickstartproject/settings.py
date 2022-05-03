@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'quickstartproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': BASE_DIR / 'iati',
+        'NAME': B'iati',
         'USER': 'root',
         'PASSWORD' : 'oBQriBw*IVhK0Jvy',
         'HOST' : '10.1.9.207'
