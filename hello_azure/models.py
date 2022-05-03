@@ -11,8 +11,7 @@ class ProjectContract(models.Model):
     UpdatedAt = models.DateTimeField() 
     GrantApplicationId =  models.CharField(max_length=255, null=TRUE)
 
-    def __str__(self): 
-      return self.name 
+  
 class Grant(models.Model):
     GrantId =  models.CharField(max_length=255)
     GrantName = models.CharField(max_length=255, null=TRUE)
@@ -20,6 +19,14 @@ class Grant(models.Model):
     GrantendDate =  models.CharField(max_length=255, null=TRUE)
     UpdatedAt = models.DateTimeField() 
     GContractApplicationId =  models.CharField(max_length=55, null=TRUE)
+
+class Test(models.Model):
+    TestId =  models.CharField(max_length=255)
+    TestName = models.CharField(max_length=255, null=TRUE)
+    TestStartDate = models.CharField(max_length=255, null=TRUE)
+    TestendDate =  models.CharField(max_length=255, null=TRUE)
+    UpdatedAt = models.DateTimeField() 
+    TestApplicationId =  models.CharField(max_length=55, null=TRUE)
 
     def __str__(self): 
       return self.name 
