@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'iati',
         'USER': 'root',
         'PASSWORD' : 'oBQriBw*IVhK0Jvy',
-        'HOST' : '10.1.9.207'
+        'HOST' : '10.1.101.107'
     }
 }
 
