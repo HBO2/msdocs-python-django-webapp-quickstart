@@ -6,7 +6,7 @@ from django.db import models
 class ProjectContract(models.Model):
     ProjectContractId =  models.CharField(max_length=255)
     ProjectContractName = models.CharField(max_length=255, null=TRUE)
-    ContractStartDate = models.DateTimeField() (max_length=255, null=TRUE)
+    ContractStartDate = models.CharField(max_length=255, null=TRUE)
     ContractEndDate =  models.CharField(max_length=255, null=TRUE)
     UpdatedAt = models.DateTimeField() 
     GrantApplicationId =  models.CharField(max_length=255, null=TRUE)
