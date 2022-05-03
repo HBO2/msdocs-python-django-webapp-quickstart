@@ -2,8 +2,13 @@ from django.db import models
 
 # Create your models here.
 
-class Person(models.Model):
-    Name = models.CharField(max_length=64)
-    Surname = models.CharField(max_length=64)
-    BirthDate = models.DateTimeField()
-    Sex = models.CharField(max_length=1)
+class Contact(models.Model): 
+   name = models.CharField(max_length=50) 
+   city = models.CharField(max_length=50) 
+   state = models.CharField(max_length=2) 
+   create_date = models.DateTimeField() 
+   phone_number = models.CharField(max_length=20) 
+   email = models.CharField(max_length=20) 
+
+   def __str__(self): 
+      return self.name 
