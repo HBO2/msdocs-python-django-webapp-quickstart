@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'mssql',
         'NAME': 'datahub_prod',
         'USER': 'dwhadmin@agrdwh@agrdwh',
-        'PASSWORD' : ' 3Beer-1Coke-4Wine',
+        'PASSWORD' : '3Beer-1Coke-4Wine',
         'HOST' : 'agrdwh.database.windows.net'
     }
 }
