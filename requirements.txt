@@ -1,5 +1,5 @@
 Django
 whitenoise
 mysqlclient
-pyodbc 3.0
+pyodbc
 mssql-django

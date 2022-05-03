@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'quickstartproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'iati',
-        'USER': 'root',
-        'PASSWORD' : 'oBQriBw*IVhK0Jvy',
-        'HOST' : '10.1.101.107'
+        'ENGINE': 'mssql',
+        'NAME': 'datahub_prod',
+        'USER': 'dwhadmin@agrdwh@agrdwh',
+        'PASSWORD' : ' 3Beer-1Coke-4Wine',
+        'HOST' : 'agrdwh.database.windows.net'
     }
 }
 
