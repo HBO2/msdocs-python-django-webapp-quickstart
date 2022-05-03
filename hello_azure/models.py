@@ -11,5 +11,5 @@ class ProjectContract(models.Model):
     UpdatedAt = models.DateTimeField() 
     GrantApplicationId =  models.CharField(max_length=255, null=TRUE)
 
-def __str__(self): 
+    def __str__(self): 
       return self.name 
