@@ -13,3 +13,13 @@ class ProjectContract(models.Model):
 
     def __str__(self): 
       return self.name 
+class Grant(models.Model):
+    GrantId =  models.CharField(max_length=255)
+    GrantName = models.CharField(max_length=255, null=TRUE)
+    CrantStartDate = models.CharField(max_length=255, null=TRUE)
+    GrantendDate =  models.CharField(max_length=255, null=TRUE)
+    UpdatedAt = models.DateTimeField() 
+    GContractApplicationId =  models.CharField(max_length=255, null=TRUE)
+
+    def __str__(self): 
+      return self.name 
