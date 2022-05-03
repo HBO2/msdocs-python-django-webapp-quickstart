@@ -12,7 +12,7 @@ class Contact(models.Model):
    email = models.CharField(max_length=20) 
 
 class ProjectContract(models.Model):
-    ProjectContractId =  models.AutoField(max_length=255)
+    ProjectContractId =  models.CharField(max_length=255)
     ProjectContractName = models.CharField(max_length=255, null=TRUE)
     ContractStartDate = models.CharField(max_length=255, null=TRUE)
     ContractEndDate =  models.CharField(max_length=255, null=TRUE)
