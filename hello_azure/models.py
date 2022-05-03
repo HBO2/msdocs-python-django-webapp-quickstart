@@ -19,7 +19,7 @@ class Grant(models.Model):
     CrantStartDate = models.CharField(max_length=255, null=TRUE)
     GrantendDate =  models.CharField(max_length=255, null=TRUE)
     UpdatedAt = models.DateTimeField() 
-    GContractApplicationId =  models.CharField(max_length=255, null=TRUE)
+    GContractApplicationId =  models.CharField(max_length=55, null=TRUE)
 
     def __str__(self): 
       return self.name 
