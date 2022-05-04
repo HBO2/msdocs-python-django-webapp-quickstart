@@ -25,7 +25,6 @@ class Test(models.Model):
     TestName = models.CharField(max_length=255, null=TRUE)
     TestStartDate = models.CharField(max_length=255, null=TRUE)
     TestendDate =  models.CharField(max_length=55, null=TRUE)
-    UpdatedAt = models.DateTimeField() 
     TestApplicationId =  models.CharField(max_length=55, null=TRUE)
 
     def __str__(self): 
